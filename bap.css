@@ -1,4 +1,15 @@
-h1 {
+.medvezi {
     color: rgb(178,34,34);
+    background-color: yellowgreen;
     text-align: center;
 }
+
+.parent {}
+
+.menu {
+    display: none;
+}
+
+.parent:hover .menu {
+    display: inline-block;
+}   
